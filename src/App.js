@@ -33,7 +33,7 @@ function StatsBar({ tasks }) {
         <span className="stat"><strong>{total}</strong> total</span>
         <span className="stat done-stat"><strong>{done}</strong> done</span>
         <span className="stat"><strong>{remaining}</strong> remaining</span>
-        <span className="stat pct-stat"><strong>{pct}%</strong> complete</span>
+        <span className="stat pct-stat"><strong>{pct}%</strong>done</span>
       </div>
       <div className="progress-track">
         <div className="progress-fill" style={{ width: `${pct}%` }} />
